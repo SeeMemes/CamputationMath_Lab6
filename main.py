@@ -200,12 +200,6 @@ def adams(step, pr):
         x_data.append(round(start_x, after_point))
         i += 1
 
-    for i in range(4):
-        iter.pop(0)
-        x_data.pop(0)
-        y_data.pop(0)
-        fx.pop(0)
-
     print("Эта таблица со всеми вычисленными значениями дополняем первую таблицу с i = 4")
     t = PrettyTable()
     t.add_column("i", iter)
